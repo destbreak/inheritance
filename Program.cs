@@ -10,6 +10,8 @@ namespace inheritance
     {
         static void Main(string[] args)
         {
+            Console.Clear();
+            
             Person person = new Person();
             person.Name = "Mike";
             person.Age = 20;
